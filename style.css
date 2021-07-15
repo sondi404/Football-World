@@ -1,4 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.first{  
+width: 1440px;
+height: 677px;
+background: #2D25A0;
+}
+.first-section{
+    display: flex;
+    gap: 102px;
+}
+.props{
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+color: #FFFFFF;
+}
 .link-button{
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+padding: 10px 24px;
+position: absolute;
+width: 168px;
+height: 44px;
+left: 156px;
+top: 464px;
     text-decoration: none;
-    background-color:darkred;
+    border-radius: 20px;
+    background: #E02C6D;
+}
+
+.link-button:hover{
+    color: #ffffff;
+    background-color: #2D25A0;
+}
+.first-section img{
+    width: 556.01px;
+height: 438px;
+left: 1299.01px;
+top: 153px
+}
+.second{
+    background-color: whitesmoke;
+}
+.players{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 27px;
+    margin-left: 180px;
+    margin-top: 70px;
+    justify-content: center;
+}
+.player{
+    background-color: white;
+    width: 330px;
+    height: 474px;
+    border: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.player img{
+    width: 300px;
+    height: 240px;
+    margin-left: 15px;
 }
